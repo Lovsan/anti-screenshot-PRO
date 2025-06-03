@@ -92,7 +92,7 @@ blur/focus: Handles window focus changes
 
 Platform Detection
 
-```javascript
+```
 
 const isWindows = navigator.platform.indexOf('Win') > -1;
 const isMac = navigator.platform.indexOf('Mac') > -1;
