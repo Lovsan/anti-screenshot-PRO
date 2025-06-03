@@ -74,10 +74,10 @@ Add this code to your HTML file:
     addNoiseOverlay();
 </script>```
 
-##Full Implementation
-#For complete protection with all features, use the full code provided in the solution above.
+Full Implementation
+For complete protection with all features, use the full code provided in the solution above.
 
-🛡️ ##How It Works
+🛡️ How It Works
 The script uses a combination of techniques to protect content:
 
 Event Listeners
@@ -91,9 +91,7 @@ visibilitychange: Blurs content when the page/tab is hidden
 blur/focus: Handles window focus changes
 
 Platform Detection
-
 ```
-
 const isWindows = navigator.platform.indexOf('Win') > -1;
 const isMac = navigator.platform.indexOf('Mac') > -1;
 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
