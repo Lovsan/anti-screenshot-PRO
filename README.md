@@ -35,6 +35,14 @@ Warning notifications for detected attempts
 
 Beautiful responsive UI
 
+Full Implementation
+For complete protection with all features, use the full code provided in the solution above.
+
+🛡️ How It Works
+The script uses a combination of techniques to protect content:
+
+Event Listeners
+
 🚀 Getting Started
 Basic Implementation
 Add this code to your HTML file:
@@ -74,24 +82,17 @@ Add this code to your HTML file:
     addNoiseOverlay();
 </script>```
 
-Full Implementation
-For complete protection with all features, use the full code provided in the solution above.
 
-🛡️ How It Works
-The script uses a combination of techniques to protect content:
+//contextmenu: Prevents right-click context menu
 
-Event Listeners
+//keydown: Detects and blocks screenshot-related keyboard shortcuts
 
-contextmenu: Prevents right-click context menu
+//visibilitychange: Blurs content when the page/tab is hidden
 
-keydown: Detects and blocks screenshot-related keyboard shortcuts
+//blur/focus: Handles window focus changes
 
-visibilitychange: Blurs content when the page/tab is hidden
+//Platform Detection
 
-blur/focus: Handles window focus changes
-
-Platform Detection
-```
 const isWindows = navigator.platform.indexOf('Win') > -1;
 const isMac = navigator.platform.indexOf('Mac') > -1;
 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
