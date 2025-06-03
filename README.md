@@ -1,13 +1,13 @@
-##Enhanced Anti-Screenshot Protection
+Enhanced Anti-Screenshot Protection
 
 
-🌟 ##Overview
+🌟 Overview
 A comprehensive client-side solution to deter unauthorized screenshots and screen captures across multiple platforms including Windows, macOS, Android, and iOS.
 
 Live Demo
 License
 
-✨ ##Features
+✨ Features
 Cross-Platform Protection
 #Windows: Blocks Print Screen, Win+Shift+S, Alt+PrintScreen
 
@@ -39,8 +39,7 @@ Beautiful responsive UI
 Basic Implementation
 Add this code to your HTML file:
 
-```javascript
-<!-- Anti-screenshot protection -->
+```<!-- Anti-screenshot protection -->
 <script>
     // Enhanced keyboard shortcut blocking
     document.addEventListener('keydown', function(e) {
